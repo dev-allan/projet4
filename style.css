@@ -1,6 +1,11 @@
 #cta-hero {
     text-shadow: grey 1px 1px 1px;
-   }
+}
+
+.site-navigation > li{
+    font-size: 14px !important;
+}
+
 
 .text-center-black address, .text-center-black li {
     color: #575757 !important;
@@ -884,13 +889,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -908,10 +913,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -920,8 +922,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1074,5 +1074,35 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    #bloc-4-portfolio a{
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-header{
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social>span{
+        padding: 10px;
+    }
+
+    .text-center-black{
+        display: flex;
+        font-size: 12px;
+    }
+
+    .text-center-black p{
+        font-size: 12px;
     }
 }
