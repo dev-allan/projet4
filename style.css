@@ -2,13 +2,18 @@
     text-shadow: grey 1px 1px 1px;
 }
 
+#misenpageform{
+    display: flex;
+    justify-content: center;
+}
+
 .site-navigation > li{
     font-size: 14px !important;
 }
 
 
 .text-center-black address, .text-center-black li {
-    color: #575757 !important;
+    color: #1C1C1C !important;
 }
 
 body {
@@ -34,6 +39,7 @@ body {
 
 label{
     color: rgb(243, 151, 108)!important;
+    text-shadow: black 2px 2px 2px;
 }
 
 blockquote, blockquote p{
@@ -537,6 +543,7 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
+
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -558,6 +565,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 600px;
 }
 
 .scrollToTop {
@@ -700,7 +708,7 @@ p,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1C1C1C !important;
 }
 
 .container {
@@ -1066,6 +1074,10 @@ h4 {
     }
 }
 
+#bloc-5-cta h2{
+    text-shadow: black 2px 2px 2px;;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1107,4 +1119,9 @@ h4 {
     .text-center-black p{
         font-size: 12px;
     }
+}
+
+.fa{
+    font-size: 20px!important;
+    color: white!important;
 }
