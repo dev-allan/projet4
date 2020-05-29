@@ -1,5 +1,6 @@
 #cta-hero {
     text-shadow: grey 1px 1px 1px;
+    background-color: #b05c36;
 }
 
 #misenpageform{
@@ -793,7 +794,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #6C6D70!important;
+}
+
+.white2{
+    color: white!important;
 }
 
 .portfolio-thumb {
@@ -828,7 +833,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b05c36;
     color: #FFFFFF!important;
 }
 
@@ -1123,5 +1128,22 @@ h4 {
 
 .fa{
     font-size: 20px!important;
-    color: white!important;
+    color: #6C6D70!important;
+    margin-bottom: 30px;
+}
+
+.fa:hover{
+    color: black!important;
+}
+
+footer{
+    background-color: white!important;
+}
+
+blockquote footer{
+    color: black!important;
+}
+
+input:focus, textarea:focus{
+    background-color: #E6E8F0;
 }
